@@ -78,7 +78,7 @@ figLine = ''
 # load database
 #db = 'https://drive.google.com/uc?id=1hE8UMN4L0Gku45mjAlxarOSVlWbSDuzH'
 #db = 'http://localhost:8000/data/dfotim.csv'
-db = 'https://climasoma.github.io/data/dfotim.csv'
+db = 'https://github.com/climasoma/otim-db/raw/main/data/dfotim.csv'
 response = await fetch(db)
 js_buffer = await response.arrayBuffer()
 dfm = pd.read_csv(BytesIO(js_buffer.to_py()))

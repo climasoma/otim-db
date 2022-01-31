@@ -18,6 +18,7 @@ This repository contains:
 - [notebooks/otim-fit.ipynb](notebooks/otim-fit.iypnb): fitting of a linear relationships in log-space between the hydraulic conductivity and the applied tension
 - [notebooks/otim-eda.iypnb](notebooks/otimdb-eda.ipynb): exploratory data analysis (EDA) of the database
 - [notebooks/meta-analysis.ipynb](notebooks/meta-analysis.ipynb): meta-analysis using the OTIM-DB
+- [interactive EDA](https://climasoma.github.io/otim-db/eda-plotly.html): to interactively explored the database (beta)
 
 ## Citation
 Refer to this citation if you make use of the database:
