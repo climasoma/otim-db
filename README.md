@@ -23,7 +23,6 @@ This repository contains:
 ## Citation
 Refer to this citation if you make use of the database:
 ```
-TODO bibtex citation
+CLIMASOMA authors. 2022. "Open-source Tension-disk Infiltrometer Meta-Databse (OTIM-DB)" CLIMASOMA report.
 ```
-
 
