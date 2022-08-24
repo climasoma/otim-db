@@ -52,7 +52,6 @@
        
 
     <script>
-	Access-Control-Allow-Origin: *
         let status = document.getElementById('status')
 
         // load pyodide itself and related packages
@@ -75,14 +74,18 @@ import numpy as np
 figBar = ''
 figMap = ''
 figLine = ''
+`)
 
-# load database
-#db = 'https://drive.google.com/uc?id=1hE8UMN4L0Gku45mjAlxarOSVlWbSDuzH'
-#db = 'http://localhost:8000/data/dfotim.csv'
-db = 'https://github.com/climasoma/otim-db/raw/main/data/dfotim.csv'
-response = await fetch(db)
-js_buffer = await response.arrayBuffer()
-dfm = pd.read_csv(BytesIO(js_buffer.to_py()))
+//load database
+// db = 'https://drive.google.com/uc?id=1hE8UMN4L0Gku45mjAlxarOSVlWbSDuzH'
+// db = 'http://localhost:8000/data/dfotim.csv'
+// db = 'http://localhost:8000/data/dfotim.csv'
+db = 'https://raw.githubusercontent.com/climasoma/otim-db/main/data/dfotim.csv'
+
+            await pyodide.runPythonAsync(`
+
+data = pyodide.open_url(db)
+dfm = pd.read_csv(data)
 
 # build the dictionnaries
 dicfeat = {}
