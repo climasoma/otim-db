@@ -80,10 +80,11 @@ figLine = ''
 // db = 'https://drive.google.com/uc?id=1hE8UMN4L0Gku45mjAlxarOSVlWbSDuzH'
 // db = 'http://localhost:8000/data/dfotim.csv'
 // db = 'http://localhost:8000/data/dfotim.csv'
-db = 'https://raw.githubusercontent.com/climasoma/otim-db/main/data/dfotim.csv'
+
 
             await pyodide.runPythonAsync(`
 
+db = 'https://raw.githubusercontent.com/climasoma/otim-db/main/data/dfotim.csv'
 data = pyodide.open_url(db)
 dfm = pd.read_csv(data)
 
