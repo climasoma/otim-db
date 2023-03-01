@@ -1,5 +1,8 @@
 # Open-source Tension-disk Infiltrometer Meta-Databse (OTIM-DB)
 
+[![DOI](https://zenodo.org/badge/452244674.svg)](https://zenodo.org/badge/latestdoi/452244674)
+
+
 This repository is part of the [EJP SOIL CLIMASOMA project](https://ejpsoil.eu/soil-research/climasoma/).
 
 This database contains data and meta-data of tension-disk infiltrometer measurements on soil from peer-reviewed scientific publications. 
