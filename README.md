@@ -1,5 +1,7 @@
 # Open-source Tension-disk Infiltrometer Meta-Databse (OTIM-DB)
 
+https://doi.org/10.20387/bonares-q9b3-z989
+
 This repository is part of the [EJP SOIL CLIMASOMA project](https://ejpsoil.eu/soil-research/climasoma/).
 
 This database contains data and meta-data of tension-disk infiltrometer measurements on soil from peer-reviewed scientific publications. 
